@@ -60,12 +60,13 @@ strong {
     color: #ACACAC!important;
 }
 /*role tag*/
-/* .role-tag {
-    color: green;
-    border: green;
-    background-color: black;
+.role-tag {
+    border-color: green;
+    background-color: black!important;
     font-weight: 1000;
-} */
+    border-radius: 0px;
+
+}
 /*shit at the top of the chat*/
 .rc-header__wrap {
     background-color: transparent!important;
@@ -145,5 +146,35 @@ strong {
 /*channel titles(ex: #general)*/
 .rc-header__data {
     color: #ACACAC!important;
+}
+/*mention thing*/
+.mention-link, .message .mention-link {
+    border-radius: 0px!important;
+    padding: 0 6px 2px;
+    transition: opacity .3s,background-color .3s,color .3s;
+    color: rgb(55, 109, 170)!important;
+    border-width: 1px;
+    border-color: rgb(55, 109, 170)!important;
+    background-color: #151515!important;
+    font-weight: 700;
+}
+/*user info container*/
+.rc-user-info-container {
+    background-color: #151515!important;
     color: #ACACAC!important;
+}
+.rc-user-info-details {
+    background-color: #151515!important;
+    color: #ACACAC!important;
+}
+.rc-user-info-details__info {
+    color: #ACACAC!important;
+}
+/*showing x online x total*/
+.rc-member-list__counter {
+    color: #ACACAC!important;
+}
+/*no gay ass created by message*/
+.emoji-footer {
+    display: none!important;
 }
