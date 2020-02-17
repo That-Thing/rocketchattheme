@@ -70,10 +70,6 @@ strong {
 .rc-header__wrap {
     background-color: transparent!important;
 }
-/*footer with the message box*/
-.rc-old .messages-container .footer {
-    height: 11%;
-}
 /*message box*/
 .rc-message-box__container {
     border-color: #53575f!important;
