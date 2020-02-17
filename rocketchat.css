@@ -142,3 +142,8 @@ strong {
 :root {
     --color-dark: #151515;
 }
+/*channel titles(ex: #general)*/
+.rc-header__data {
+    color: #ACACAC!important;
+    color: #ACACAC!important;
+}
