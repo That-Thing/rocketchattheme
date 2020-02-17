@@ -1,0 +1,148 @@
+body {
+    color: #ACACAC!important;
+    background: #1D1F21!important;
+}
+/*links*/
+a {
+    color: #81A2BE!important;
+}
+/*main chat bg*/
+.content-background-color {
+    background-color: #1D1F21;
+    color: #ACACAC!important;
+}
+/*left sidebar*/
+.sidebar {
+    background-color: #151515;
+    color: #ACACAC!important
+}
+/*strong text*/
+strong {
+    color: #b388ff;
+    font-size: 1.5em;
+}
+/*Join button*/
+.actionLinks li .action-link {
+    color: #ACACAC;
+    background-color: #282a2e;
+    border-left: none;
+}
+.actionLinks li .action-link:hover {
+    color: #fff;
+    background-color: #464646;
+}
+/*Time, info messages, other shit*/
+.color-info-font-color {
+    color: #ACACAC;
+}
+/*NO LIGHT THEME*/
+.sidebar-light {
+    position: absolute;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    background-color: #151515;
+    color: #ACACAC!important;
+}
+/*Border colors for shit in the settings*/
+.rc-old .page-settings, .rc-old .page-settings * {
+    border-color: #53575f;
+}
+.sidebar-item:hover {
+    background-color: #46464659!important;
+}
+.rc-button {
+    border-color: #53575f!important;
+
+}
+.rc-input__element {
+    border-color: #53575f!important;
+    color: #ACACAC!important;
+}
+/*role tag*/
+/* .role-tag {
+    color: green;
+    border: green;
+    background-color: black;
+    font-weight: 1000;
+} */
+/*shit at the top of the chat*/
+.rc-header__wrap {
+    background-color: transparent!important;
+}
+/*footer with the message box*/
+.rc-old .messages-container .footer {
+    height: 11%;
+}
+/*message box*/
+.rc-message-box__container {
+    border-color: #53575f!important;
+    color: #ACACAC!important;
+}
+/*hovered messages no longer highlighted*/
+.message.active, .message:hover {
+    background-color: transparent!important;
+}
+/*hide/show attachment*/
+.attachment .attachment-title {
+    color: #81A2BE!important;
+}
+/*security page*/
+.rc-old .page-settings, .rc-old .page-settings * {
+    text-align: center;
+}
+.rc-button--primary {
+    margin: 0 auto;
+}
+/*2fa settings page blurry :^)*/
+#security {
+    filter: blur(0.5px);
+}
+/*popup*/
+.contextual-bar {
+    background-color: #151515;
+    color: #ACACAC!important;
+}
+/*rc button*/
+.rc-button {
+    border-color: #53575f!important;
+    color: #ACACAC!important;
+}
+/*user popout header*/
+.contextual-bar__header {
+    background-color: #151515;
+    color: #ACACAC!important;
+    border-bottom: solid 1px #272727;
+}
+/*context menu*/
+.rc-popover__content {
+    background-color: #151515!important;
+    color: #ACACAC!important;
+}
+/*context menu item*/
+.rc-popover__item {
+    color: #ACACAC!important;
+}
+.rc-popover__item:hover {
+    color: #ACACAC!important;
+    background-color: #464646!important;
+}
+/*box shadow on popouts*/
+.rc-popover__content {
+    box-shadow: 10px 10px #101010eb!important;
+}
+/*title color*/
+.rc-table-title {
+    color: rgb(223, 223, 223)!important;
+}
+/*Selected tab color*/
+.tab.active {
+    color: #b388ff!important;
+    color: #b388ff!important;
+    border-bottom-color: #b388ff!important;
+    border-bottom-color: #b388ff!important;
+}
+/*root color shieeet*/
+:root {
+    --color-dark: #151515;
+}
