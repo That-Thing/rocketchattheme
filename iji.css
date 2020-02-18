@@ -177,4 +177,22 @@ strong {
 /*no gay ass created by message*/
 .emoji-footer {
     display: none!important;
+} 
+/*reactions*/
+.message .reactions>li.selected {
+    border-radius: 0px!important;
+    color: #b388ff!important;
+    border-color: #b388ff!important;
+    background-color: #000000!important;
+}
+/*reaction add*/
+.message .reactions>li {
+    color: #81A2BE!important;
+    border: 1px solid #81A2BE!important;
+    border-radius: 0px!important;
+    background-color: #000000!important;
+}
+/*Icons*/
+.rc-icon {
+    color: #ACACAC!important;
 }
