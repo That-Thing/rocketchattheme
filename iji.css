@@ -113,8 +113,9 @@ strong {
 }
 /*context menu*/
 .rc-popover__content {
+    box-shadow: 10px 10px #101010e8!important;
     background-color: #151515!important;
-    color: #ACACAC!important;
+    color: #acacac !important;
 }
 /*context menu item*/
 .rc-popover__item {
@@ -124,10 +125,7 @@ strong {
     color: #ACACAC!important;
     background-color: #464646!important;
 }
-/*box shadow on popouts*/
-.rc-popover__content {
-    box-shadow: 10px 10px #101010eb!important;
-}
+
 /*title color*/
 .rc-table-title {
     color: rgb(223, 223, 223)!important;
